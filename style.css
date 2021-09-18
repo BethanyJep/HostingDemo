@@ -41,3 +41,24 @@ img{
 .side{
     margin-right: 5px;
 }
+
+@media only screen and (max-width: 600px) {
+    body{
+        margin: 0px;
+        text-align: center;
+    }
+    .flex {
+      display: flex;
+      flex-direction: column-reverse;
+  } 
+    .content {
+        margin: 5px;
+        padding: 5px;
+    }
+    img{
+        width: 300px;
+    }
+    .side{
+        margin: 0px;
+    }
+}
